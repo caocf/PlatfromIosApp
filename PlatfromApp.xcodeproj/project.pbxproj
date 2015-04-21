@@ -75,6 +75,7 @@
 		049B5C1F1AE65DEC00FFE171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5C1E1AE65DEC00FFE171 /* ViewController.m */; };
 		049B5C221AE65E2E00FFE171 /* 开发过程中遇到的问题 in Resources */ = {isa = PBXBuildFile; fileRef = 049B5C201AE65E2E00FFE171 /* 开发过程中遇到的问题 */; };
 		049B5C231AE65E2E00FFE171 /* 协议的使用和定义 in Resources */ = {isa = PBXBuildFile; fileRef = 049B5C211AE65E2E00FFE171 /* 协议的使用和定义 */; };
+		04F4CD3B1AE65FDA00F8440E /* JsonUpLoadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4CD3A1AE65FDA00F8440E /* JsonUpLoadData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,8 +114,6 @@
 		049B5B871AE6322500FFE171 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		049B5B891AE6325400FFE171 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		049B5B8B1AE6325B00FFE171 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		049B5B981AE65DAB00FFE171 /* NSObject_DecodeJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_DecodeJson.h; sourceTree = "<group>"; };
-		049B5B991AE65DAB00FFE171 /* NSObject_UploadJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_UploadJson.h; sourceTree = "<group>"; };
 		049B5B9B1AE65DAB00FFE171 /* AFNNetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNNetworkController.h; sourceTree = "<group>"; };
 		049B5B9C1AE65DAB00FFE171 /* AFNNetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNNetworkController.m; sourceTree = "<group>"; };
 		049B5B9D1AE65DAB00FFE171 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
@@ -197,6 +196,8 @@
 		049B5C1E1AE65DEC00FFE171 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		049B5C201AE65E2E00FFE171 /* 开发过程中遇到的问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "开发过程中遇到的问题"; sourceTree = SOURCE_ROOT; };
 		049B5C211AE65E2E00FFE171 /* 协议的使用和定义 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "协议的使用和定义"; sourceTree = SOURCE_ROOT; };
+		04F4CD391AE65FDA00F8440E /* JsonUpLoadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JsonUpLoadData.h; path = ../../../../Documents/JsonUpLoadData.h; sourceTree = "<group>"; };
+		04F4CD3A1AE65FDA00F8440E /* JsonUpLoadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JsonUpLoadData.m; path = ../../../../Documents/JsonUpLoadData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,8 +314,8 @@
 		049B5B971AE65DAB00FFE171 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				049B5B981AE65DAB00FFE171 /* NSObject_DecodeJson.h */,
-				049B5B991AE65DAB00FFE171 /* NSObject_UploadJson.h */,
+				04F4CD391AE65FDA00F8440E /* JsonUpLoadData.h */,
+				04F4CD3A1AE65FDA00F8440E /* JsonUpLoadData.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -608,6 +609,7 @@
 				049B5C041AE65DAB00FFE171 /* AFHTTPRequestOperation.m in Sources */,
 				049B5C061AE65DAB00FFE171 /* AFHTTPSessionManager.m in Sources */,
 				049B5C121AE65DAB00FFE171 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				04F4CD3B1AE65FDA00F8440E /* JsonUpLoadData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -798,6 +800,7 @@
 				049B5AE91AE6307900FFE171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		049B5AEA1AE6307900FFE171 /* Build configuration list for PBXNativeTarget "PlatfromAppTests" */ = {
 			isa = XCConfigurationList;
@@ -806,6 +809,7 @@
 				049B5AEC1AE6307900FFE171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

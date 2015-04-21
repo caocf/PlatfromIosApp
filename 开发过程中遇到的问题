@@ -1,0 +1,11 @@
+1.lancuerscreen 这个默认页面是在info.plist 中配置的
+2.所有的对外引用都需要头文件
+3.关键字：#param mark - 用于间隔函数 列出函数列表时比较清晰
+4.关键字：
+5.协议  。协议可以单独定义一个文件 ，也可以定义在头文件中（我看大部分都定义在头文件中）
+         协议的引用 可以在 头文件的 继承方法后  加<> 也可以在类文件的（） 后面加 如
+ @interface AFNNetworkController  () <NSURLSessionTaskDelegate>
+ @interface AFNNetworkController ：NSUIController <NSURLSessionTaskDelegate>
+
+6.实现协议里的方法 只能用粘贴 没有快捷键
+7.

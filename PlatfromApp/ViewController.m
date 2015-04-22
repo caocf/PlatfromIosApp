@@ -1,7 +1,7 @@
 
 #import "ViewController.h"
 #import "HomeController.h"
-#import "NMBottomTabBarController.h"
+#import "LoginController.h"
 
 
 @interface ViewController ()
@@ -38,10 +38,10 @@
 
 -(void) intentToMain{
  
- NMBottomTabBarController *tabBarController = [[NMBottomTabBarController alloc]init];
+  LoginController * tabBarController = [[LoginController alloc]init];
 
 
-  [tabBarController selectTabAtIndex:0];
+
 
 
  [self presentViewController:tabBarController animated:YES completion:nil ];

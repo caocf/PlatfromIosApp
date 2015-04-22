@@ -9,3 +9,10 @@
 
 6.实现协议里的方法 只能用粘贴 没有快捷键
 7.static 同c 语言 意思为只能在本文件中是用
+
+8.使用全局的变量或者方法入口
+AppDelegate *myDelegate = [[UIApplication sharedApplication] delegate];
+myDelegte.myName = @"123 ";
+
+
+9.block 多用于直接执行方法回调 而协议 对于两个类的关联上 使用 见 HttpUtils 相关回调

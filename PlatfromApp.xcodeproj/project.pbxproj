@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0494A3B91AE73F8600AD3B11 /* JsonUploadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494A3B81AE73F8600AD3B11 /* JsonUploadData.m */; };
+		0494A3D61AE74C8600AD3B11 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494A3D51AE74C8600AD3B11 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0494A3D91AE7515000AD3B11 /* DecodeJsonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494A3D81AE7515000AD3B11 /* DecodeJsonData.m */; };
+		0494A3DC1AE77C3F00AD3B11 /* login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0494A3DB1AE77C3F00AD3B11 /* login.xib */; };
+		0494A3DF1AE77D3900AD3B11 /* HttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494A3DE1AE77D3900AD3B11 /* HttpUtils.m */; };
+		0494A3E61AE7A38200AD3B11 /* register.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0494A3E51AE7A38200AD3B11 /* register.xib */; };
+		0494A3E91AE7A40300AD3B11 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494A3E81AE7A40300AD3B11 /* LoginController.m */; };
 		049B5AC71AE6307900FFE171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5AC61AE6307900FFE171 /* main.m */; };
 		049B5ACA1AE6307900FFE171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5AC91AE6307900FFE171 /* AppDelegate.m */; };
 		049B5ACD1AE6307900FFE171 /* PlatfromApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 049B5ACB1AE6307900FFE171 /* PlatfromApp.xcdatamodeld */; };
@@ -75,7 +82,6 @@
 		049B5C1F1AE65DEC00FFE171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5C1E1AE65DEC00FFE171 /* ViewController.m */; };
 		049B5C221AE65E2E00FFE171 /* 开发过程中遇到的问题 in Resources */ = {isa = PBXBuildFile; fileRef = 049B5C201AE65E2E00FFE171 /* 开发过程中遇到的问题 */; };
 		049B5C231AE65E2E00FFE171 /* 协议的使用和定义 in Resources */ = {isa = PBXBuildFile; fileRef = 049B5C211AE65E2E00FFE171 /* 协议的使用和定义 */; };
-		04F4CD3B1AE65FDA00F8440E /* JsonUpLoadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4CD3A1AE65FDA00F8440E /* JsonUpLoadData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +95,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0494A3B71AE73F8600AD3B11 /* JsonUploadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonUploadData.h; sourceTree = "<group>"; };
+		0494A3B81AE73F8600AD3B11 /* JsonUploadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonUploadData.m; sourceTree = "<group>"; };
+		0494A3D11AE746B600AD3B11 /* ActiveBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveBean.h; sourceTree = "<group>"; };
+		0494A3D41AE74C8600AD3B11 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		0494A3D51AE74C8600AD3B11 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		0494A3D71AE7515000AD3B11 /* DecodeJsonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecodeJsonData.h; sourceTree = "<group>"; };
+		0494A3D81AE7515000AD3B11 /* DecodeJsonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecodeJsonData.m; sourceTree = "<group>"; };
+		0494A3DA1AE753F900AD3B11 /* DecodePlatFormResultProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecodePlatFormResultProtocol.h; sourceTree = "<group>"; };
+		0494A3DB1AE77C3F00AD3B11 /* login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = login.xib; sourceTree = "<group>"; };
+		0494A3DD1AE77D3900AD3B11 /* HttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtils.h; sourceTree = "<group>"; };
+		0494A3DE1AE77D3900AD3B11 /* HttpUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpUtils.m; sourceTree = "<group>"; };
+		0494A3E41AE79F5800AD3B11 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		0494A3E51AE7A38200AD3B11 /* register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = register.xib; sourceTree = "<group>"; };
+		0494A3E71AE7A40300AD3B11 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		0494A3E81AE7A40300AD3B11 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		049B5AC11AE6307900FFE171 /* PlatfromApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatfromApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049B5AC51AE6307900FFE171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049B5AC61AE6307900FFE171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -196,8 +217,6 @@
 		049B5C1E1AE65DEC00FFE171 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		049B5C201AE65E2E00FFE171 /* 开发过程中遇到的问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "开发过程中遇到的问题"; sourceTree = SOURCE_ROOT; };
 		049B5C211AE65E2E00FFE171 /* 协议的使用和定义 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "协议的使用和定义"; sourceTree = SOURCE_ROOT; };
-		04F4CD391AE65FDA00F8440E /* JsonUpLoadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JsonUpLoadData.h; path = ../../../../Documents/JsonUpLoadData.h; sourceTree = "<group>"; };
-		04F4CD3A1AE65FDA00F8440E /* JsonUpLoadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JsonUpLoadData.m; path = ../../../../Documents/JsonUpLoadData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +250,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0494A3B61AE73F7000AD3B11 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				0494A3E41AE79F5800AD3B11 /* Define.h */,
+				0494A3D01AE7466000AD3B11 /* bean */,
+				0494A3B71AE73F8600AD3B11 /* JsonUploadData.h */,
+				0494A3B81AE73F8600AD3B11 /* JsonUploadData.m */,
+				0494A3D71AE7515000AD3B11 /* DecodeJsonData.h */,
+				0494A3D81AE7515000AD3B11 /* DecodeJsonData.m */,
+				0494A3DA1AE753F900AD3B11 /* DecodePlatFormResultProtocol.h */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		0494A3D01AE7466000AD3B11 /* bean */ = {
+			isa = PBXGroup;
+			children = (
+				0494A3D11AE746B600AD3B11 /* ActiveBean.h */,
+			);
+			name = bean;
+			sourceTree = "<group>";
+		};
 		049B5AB81AE6307900FFE171 = {
 			isa = PBXGroup;
 			children = (
@@ -265,11 +306,11 @@
 		049B5AC31AE6307900FFE171 /* PlatfromApp */ = {
 			isa = PBXGroup;
 			children = (
+				0494A3B61AE73F7000AD3B11 /* classes */,
 				049B5C201AE65E2E00FFE171 /* 开发过程中遇到的问题 */,
 				049B5C211AE65E2E00FFE171 /* 协议的使用和定义 */,
 				049B5C1D1AE65DEC00FFE171 /* ViewController.h */,
 				049B5C1E1AE65DEC00FFE171 /* ViewController.m */,
-				049B5B971AE65DAB00FFE171 /* classes */,
 				049B5B9A1AE65DAB00FFE171 /* controller */,
 				049B5BA81AE65DAB00FFE171 /* Images */,
 				049B5BB61AE65DAB00FFE171 /* library */,
@@ -311,15 +352,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		049B5B971AE65DAB00FFE171 /* classes */ = {
-			isa = PBXGroup;
-			children = (
-				04F4CD391AE65FDA00F8440E /* JsonUpLoadData.h */,
-				04F4CD3A1AE65FDA00F8440E /* JsonUpLoadData.m */,
-			);
-			path = classes;
-			sourceTree = "<group>";
-		};
 		049B5B9A1AE65DAB00FFE171 /* controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +368,10 @@
 				049B5BA51AE65DAB00FFE171 /* NMBottomTabBarController.m */,
 				049B5BA61AE65DAB00FFE171 /* SqliteOperateController.h */,
 				049B5BA71AE65DAB00FFE171 /* SqliteOperateController.m */,
+				0494A3DD1AE77D3900AD3B11 /* HttpUtils.h */,
+				0494A3DE1AE77D3900AD3B11 /* HttpUtils.m */,
+				0494A3E71AE7A40300AD3B11 /* LoginController.h */,
+				0494A3E81AE7A40300AD3B11 /* LoginController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -363,6 +399,8 @@
 		049B5BB61AE65DAB00FFE171 /* library */ = {
 			isa = PBXGroup;
 			children = (
+				0494A3D41AE74C8600AD3B11 /* JSONKit.h */,
+				0494A3D51AE74C8600AD3B11 /* JSONKit.m */,
 				049B5BB71AE65DAB00FFE171 /* AFNetworking */,
 				049B5BCB1AE65DAB00FFE171 /* fmdb */,
 				049B5BD71AE65DAB00FFE171 /* UIKit+AFNetworking */,
@@ -445,6 +483,8 @@
 				049B5BED1AE65DAB00FFE171 /* item_view.xib */,
 				049B5BEE1AE65DAB00FFE171 /* MyCustromCell.h */,
 				049B5BEF1AE65DAB00FFE171 /* MyCustromCell.m */,
+				0494A3DB1AE77C3F00AD3B11 /* login.xib */,
+				0494A3E51AE7A38200AD3B11 /* register.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -548,9 +588,11 @@
 				049B5C231AE65E2E00FFE171 /* 协议的使用和定义 in Resources */,
 				049B5AD81AE6307900FFE171 /* LaunchScreen.xib in Resources */,
 				049B5BFA1AE65DAB00FFE171 /* profile.png in Resources */,
+				0494A3DC1AE77C3F00AD3B11 /* login.xib in Resources */,
 				049B5BF31AE65DAB00FFE171 /* IndexFragmentController.xib in Resources */,
 				049B5C221AE65E2E00FFE171 /* 开发过程中遇到的问题 in Resources */,
 				049B5BFB1AE65DAB00FFE171 /* profile@2x.png in Resources */,
+				0494A3E61AE7A38200AD3B11 /* register.xib in Resources */,
 				049B5BFC1AE65DAB00FFE171 /* selected.jpeg in Resources */,
 				049B5BFF1AE65DAB00FFE171 /* separator@2x.jpg in Resources */,
 				049B5BF81AE65DAB00FFE171 /* home.png in Resources */,
@@ -577,11 +619,13 @@
 			files = (
 				049B5C1F1AE65DEC00FFE171 /* ViewController.m in Sources */,
 				049B5C091AE65DAB00FFE171 /* AFURLConnectionOperation.m in Sources */,
+				0494A3D61AE74C8600AD3B11 /* JSONKit.m in Sources */,
 				049B5BF61AE65DAB00FFE171 /* SqliteOperateController.m in Sources */,
 				049B5C151AE65DAB00FFE171 /* UIButton+AFNetworking.m in Sources */,
 				049B5C081AE65DAB00FFE171 /* AFSecurityPolicy.m in Sources */,
 				049B5C191AE65DAB00FFE171 /* UIWebView+AFNetworking.m in Sources */,
 				049B5C171AE65DAB00FFE171 /* UIProgressView+AFNetworking.m in Sources */,
+				0494A3B91AE73F8600AD3B11 /* JsonUploadData.m in Sources */,
 				049B5C0D1AE65DAB00FFE171 /* FMDatabase.m in Sources */,
 				049B5C161AE65DAB00FFE171 /* UIImageView+AFNetworking.m in Sources */,
 				049B5C0F1AE65DAB00FFE171 /* FMDatabasePool.m in Sources */,
@@ -601,15 +645,17 @@
 				049B5BF51AE65DAB00FFE171 /* NMBottomTabBarController.m in Sources */,
 				049B5AC71AE6307900FFE171 /* main.m in Sources */,
 				049B5C0A1AE65DAB00FFE171 /* AFURLRequestSerialization.m in Sources */,
+				0494A3D91AE7515000AD3B11 /* DecodeJsonData.m in Sources */,
 				049B5C181AE65DAB00FFE171 /* UIRefreshControl+AFNetworking.m in Sources */,
 				049B5C1A1AE65DAB00FFE171 /* GMDCircleLoader.m in Sources */,
 				049B5C141AE65DAB00FFE171 /* UIAlertView+AFNetworking.m in Sources */,
+				0494A3E91AE7A40300AD3B11 /* LoginController.m in Sources */,
 				049B5C071AE65DAB00FFE171 /* AFNetworkReachabilityManager.m in Sources */,
 				049B5BF41AE65DAB00FFE171 /* NMBottomTabBar.m in Sources */,
 				049B5C041AE65DAB00FFE171 /* AFHTTPRequestOperation.m in Sources */,
+				0494A3DF1AE77D3900AD3B11 /* HttpUtils.m in Sources */,
 				049B5C061AE65DAB00FFE171 /* AFHTTPSessionManager.m in Sources */,
 				049B5C121AE65DAB00FFE171 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				04F4CD3B1AE65FDA00F8440E /* JsonUpLoadData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

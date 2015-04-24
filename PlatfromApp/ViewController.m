@@ -38,9 +38,9 @@
 
 -(void) intentToMain{
  
-  LoginController * tabBarController = [[LoginController alloc]init];
+  LoginController * tabBarController = [[LoginController alloc]initWithNibName:@"login" bundle:nil];
 
-
+ tabBarController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
 
 
 

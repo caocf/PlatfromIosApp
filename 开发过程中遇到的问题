@@ -16,3 +16,13 @@ myDelegte.myName = @"123 ";
 
 
 9.block 多用于直接执行方法回调 而协议 对于两个类的关联上 使用 见 HttpUtils 相关回调
+
+从xib中加载view
+NSArray *nib = [[NSBundle mainBundle]loadNibNamed:@"CustomView" owner:self options:nil];
+//得到第一个UIView
+UIView *tmpCustomView = [nib objectAtIndex:0];
+
+//通过tag 加载到view
+    UIButton *icon = (UIButton *)[rowView viewWithTag:1];
+
+10.使用xib 的好处是能快速开发  。不好的地方 在于代码控制 xib 上得view 变换位置时 非常困难因为添加了约束

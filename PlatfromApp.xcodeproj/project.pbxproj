@@ -399,6 +399,7 @@
 		049B5BB61AE65DAB00FFE171 /* library */ = {
 			isa = PBXGroup;
 			children = (
+				049B5BEA1AE65DAB00FFE171 /* GMDCircleLoader */,
 				0494A3D41AE74C8600AD3B11 /* JSONKit.h */,
 				0494A3D51AE74C8600AD3B11 /* JSONKit.m */,
 				049B5BB71AE65DAB00FFE171 /* AFNetworking */,
@@ -479,7 +480,6 @@
 		049B5BE91AE65DAB00FFE171 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				049B5BEA1AE65DAB00FFE171 /* GMDCircleLoader */,
 				049B5BED1AE65DAB00FFE171 /* item_view.xib */,
 				049B5BEE1AE65DAB00FFE171 /* MyCustromCell.h */,
 				049B5BEF1AE65DAB00FFE171 /* MyCustromCell.m */,
@@ -495,7 +495,8 @@
 				049B5BEB1AE65DAB00FFE171 /* GMDCircleLoader.h */,
 				049B5BEC1AE65DAB00FFE171 /* GMDCircleLoader.m */,
 			);
-			path = GMDCircleLoader;
+			name = GMDCircleLoader;
+			path = ../view/GMDCircleLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -19,7 +19,6 @@
 
 }
 
-
 @end
 
 //用于实现
@@ -35,8 +34,10 @@
 }
 
 -(void)actionLogin{
+    NSString * mAccount  = self.maccount.text;
+    NSString * mPassword = self.mpassword.text;
 [GMDCircleLoader setOnView:self.view withTitle:@"Loading..." animated:YES];
- [HttpUtils sendData:[JsonUploadData getLoginUploadJson:@"":@""] protocal:self];
+ [HttpUtils sendData:[JsonUploadData getLoginUploadJson:mAccount:mPassword] protocal:self];
 
 }
 

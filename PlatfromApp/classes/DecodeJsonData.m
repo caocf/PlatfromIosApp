@@ -20,7 +20,15 @@
  if(mNsResultData == nil){
   return;
  }
-    success(mNsResultData);
+    NSNumber * mSuccess = [mNsResultData objectForKey:@"success"];
+    
+    
+    if([mSuccess isEqualToNumber:[NSNumber numberWithInt:0]]){
+        success(mNsResultData);
+        return;
+    }
+    
+    error(@"");
 // NSMutableDictionary * mJsonData = [mNsResultData objectFromJSONStringWithParseOptions:
 //
 //                                    JKParseOptionLooseUnicode ];

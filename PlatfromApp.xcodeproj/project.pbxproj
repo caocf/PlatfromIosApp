@@ -16,7 +16,6 @@
 		049B5AC71AE6307900FFE171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5AC61AE6307900FFE171 /* main.m */; };
 		049B5ACA1AE6307900FFE171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5AC91AE6307900FFE171 /* AppDelegate.m */; };
 		049B5ACD1AE6307900FFE171 /* PlatfromApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 049B5ACB1AE6307900FFE171 /* PlatfromApp.xcdatamodeld */; };
-		049B5AD31AE6307900FFE171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049B5AD11AE6307900FFE171 /* Main.storyboard */; };
 		049B5AD51AE6307900FFE171 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049B5AD41AE6307900FFE171 /* Images.xcassets */; };
 		049B5AD81AE6307900FFE171 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049B5AD61AE6307900FFE171 /* LaunchScreen.xib */; };
 		049B5AE41AE6307900FFE171 /* PlatfromAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5AE31AE6307900FFE171 /* PlatfromAppTests.m */; };
@@ -116,7 +115,6 @@
 		049B5AC81AE6307900FFE171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		049B5AC91AE6307900FFE171 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		049B5ACC1AE6307900FFE171 /* PlatfromApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlatfromApp.xcdatamodel; sourceTree = "<group>"; };
-		049B5AD21AE6307900FFE171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049B5AD41AE6307900FFE171 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		049B5AD71AE6307900FFE171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		049B5ADD1AE6307900FFE171 /* PlatfromAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatfromAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -320,7 +318,6 @@
 				049B5BE91AE65DAB00FFE171 /* view */,
 				049B5AC81AE6307900FFE171 /* AppDelegate.h */,
 				049B5AC91AE6307900FFE171 /* AppDelegate.m */,
-				049B5AD11AE6307900FFE171 /* Main.storyboard */,
 				049B5AD41AE6307900FFE171 /* Images.xcassets */,
 				049B5AD61AE6307900FFE171 /* LaunchScreen.xib */,
 				049B5ACB1AE6307900FFE171 /* PlatfromApp.xcdatamodeld */,
@@ -586,7 +583,6 @@
 			files = (
 				049B5C001AE65DAB00FFE171 /* settings.png in Resources */,
 				049B5BF71AE65DAB00FFE171 /* calendar.png in Resources */,
-				049B5AD31AE6307900FFE171 /* Main.storyboard in Resources */,
 				049B5C1B1AE65DAB00FFE171 /* item_view.xib in Resources */,
 				049B5BFD1AE65DAB00FFE171 /* selected@2x.jpeg in Resources */,
 				049B5BFE1AE65DAB00FFE171 /* separator.jpg in Resources */,
@@ -685,14 +681,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		049B5AD11AE6307900FFE171 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				049B5AD21AE6307900FFE171 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		049B5AD61AE6307900FFE171 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

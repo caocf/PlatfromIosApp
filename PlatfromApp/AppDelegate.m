@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "LoginController.h"
+#import  "ViewController.h"
 
 
 @interface AppDelegate ()
@@ -25,8 +26,9 @@
  self.window.backgroundColor = [UIColor whiteColor];
  ViewController *root = [[ViewController alloc]init];
  self.Navigation = [[UINavigationController alloc]init];//先将root添加在navigation上
+       [self.window addSubview:self.Navigation.view];
     [self.Navigation pushViewController:root animated:YES];
-    [self.window addSubview:self.Navigation.view];
+
 [self.window makeKeyAndVisible];  
  return YES;
 

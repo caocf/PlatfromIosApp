@@ -11,6 +11,8 @@
 #import "GMDCircleLoader.h"
 #import "HttpUtils.h"
 #import  "JsonUploadData.h"
+#import "NMBottomTabBarController.h"
+#import "RegisterController.h"
 
 @interface LoginController () <DecodePlatFormResultProtocol>{
 
@@ -26,8 +28,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
+ self.title = @"登录";
  [self.mLoginBt addTarget:self action:@selector(actionLogin) forControlEvents:UIControlEventTouchUpInside];
+   [self.mRegisterBt addTarget:self action:@selector(actionRegister) forControlEvents:UIControlEventTouchUpInside];
 
 }
 
@@ -37,6 +40,11 @@
 
 }
 
+-(void)actionRegister{
+    RegisterController * mRegisterController = [[RegisterController alloc]initWithNibName:@"register" bundle:nil];
+    [self.navigationController pushViewController:mRegisterController animated:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -44,6 +52,11 @@
 
 -(void) onDecoded :(NSString *)reason : (Boolean) misSuccess :(NSDictionary * ) mResultDictionary{
  [GMDCircleLoader hideFromView:self.view animated:YES];
+  //弹出登录成功的提示
+    //[self sho]
+    
+    NMBottomTabBarController * mBottomBar =[[NMBottomTabBarController alloc]init];
+    [self.navigationController pushViewController:mBottomBar animated:YES];
 }
 
 /*

@@ -15,15 +15,18 @@
 
    //  如果json有嵌套，即value里有array、object，如果再使用objectFromJSONString，程序可能会报错（测试结果表明：使用由网络或得到的php/json_encode生成的json时会报错，但使用NSString定义的json字符串时，解析成功），最好使用objectFromJSONStringWithParseOptions：
    //
-+(void)decodeResult:(NSString *) mNsResultData success:(IDecodeWithSuccess) success error:(IDecodeWithException) error{
++(void)decodeResult:(NSMutableDictionary *) mNsResultData success:(IDecodeWithSuccess) success error:(IDecodeWithException) error{
 
  if(mNsResultData == nil){
   return;
  }
- NSMutableDictionary * mJsonData = [mNsResultData objectFromJSONStringWithParseOptions:
-
-                                    JKParseOptionLooseUnicode ];
- [mJsonData objectForKey:@""];
+    success(mNsResultData);
+// NSMutableDictionary * mJsonData = [mNsResultData objectFromJSONStringWithParseOptions:
+//
+//                                    JKParseOptionLooseUnicode ];
+// [mJsonData objectForKey:@""];
+    
+    
 
 
 

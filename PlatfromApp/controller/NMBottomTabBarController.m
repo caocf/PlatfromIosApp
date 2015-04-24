@@ -34,36 +34,37 @@
     
     [self.tabBar setDelegate:self];
     
-
-// //创建一个导航栏
- UINavigationBar *navigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, 380, 44)];
-
- //创建一个导航栏集合
- UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:nil];
-
- //创建一个左边按钮
- UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithTitle:@"左边"
-                                                                style:UIBarButtonItemStyleBordered
-                                                               target:self
-                                                               action:@selector(clickLeftButton)];
-
- //创建一个右边按钮
- UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"右边"
-                                                                 style:UIBarButtonItemStyleDone
-                                                                target:self
-                                                                action:@selector(clickRightButton)];
- //设置导航栏内容
- [navigationItem setTitle:@"模特平台"];
-
-
- //把导航栏集合添加入导航栏中，设置动画关闭
- [navigationBar pushNavigationItem:navigationItem animated:NO];
-
- //把左右两个按钮添加入导航栏集合中
- [navigationItem setLeftBarButtonItem:leftButton];
- [navigationItem setRightBarButtonItem:rightButton];
-// 把导航栏添加到视图中
- [self.view addSubview:navigationBar];
+//
+//// //创建一个导航栏
+// UINavigationBar *navigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, 380, 44)];
+//
+// //创建一个导航栏集合
+// UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:nil];
+//
+// //创建一个左边按钮
+// UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithTitle:@"左边"
+//                                                                style:UIBarButtonItemStyleBordered
+//                                                               target:self
+//                                                               action:@selector(clickLeftButton)];
+//
+// //创建一个右边按钮
+// UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"右边"
+//                                                                 style:UIBarButtonItemStyleDone
+//                                                                target:self
+//                                                                action:@selector(clickRightButton)];
+// //设置导航栏内容
+// [navigationItem setTitle:@"模特平台"];
+//
+//
+// //把导航栏集合添加入导航栏中，设置动画关闭
+// [navigationBar pushNavigationItem:navigationItem animated:NO];
+//
+// //把左右两个按钮添加入导航栏集合中
+// [navigationItem setLeftBarButtonItem:leftButton];
+// [navigationItem setRightBarButtonItem:rightButton];
+//// 把导航栏添加到视图中
+// [self.view addSubview:navigationBar];
+    self.title = @"模特平台";
 
 
 }

@@ -13,4 +13,6 @@
 @property (strong ,nonatomic) IBOutlet UITextField *maccount;
 @property (strong ,nonatomic) IBOutlet UITextField *mpassword;
 @property (strong ,nonatomic) IBOutlet UIButton *mLoginBt;
+@property (strong ,nonatomic) IBOutlet UIButton *mRegisterBt;
+
 @end

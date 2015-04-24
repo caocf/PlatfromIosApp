@@ -12,7 +12,6 @@
 		0494A3D91AE7515000AD3B11 /* DecodeJsonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494A3D81AE7515000AD3B11 /* DecodeJsonData.m */; };
 		0494A3DC1AE77C3F00AD3B11 /* login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0494A3DB1AE77C3F00AD3B11 /* login.xib */; };
 		0494A3DF1AE77D3900AD3B11 /* HttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494A3DE1AE77D3900AD3B11 /* HttpUtils.m */; };
-		0494A3E61AE7A38200AD3B11 /* register.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0494A3E51AE7A38200AD3B11 /* register.xib */; };
 		0494A3E91AE7A40300AD3B11 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494A3E81AE7A40300AD3B11 /* LoginController.m */; };
 		049B5AC71AE6307900FFE171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5AC61AE6307900FFE171 /* main.m */; };
 		049B5ACA1AE6307900FFE171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5AC91AE6307900FFE171 /* AppDelegate.m */; };
@@ -82,6 +81,8 @@
 		049B5C1F1AE65DEC00FFE171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5C1E1AE65DEC00FFE171 /* ViewController.m */; };
 		049B5C221AE65E2E00FFE171 /* 开发过程中遇到的问题 in Resources */ = {isa = PBXBuildFile; fileRef = 049B5C201AE65E2E00FFE171 /* 开发过程中遇到的问题 */; };
 		049B5C231AE65E2E00FFE171 /* 协议的使用和定义 in Resources */ = {isa = PBXBuildFile; fileRef = 049B5C211AE65E2E00FFE171 /* 协议的使用和定义 */; };
+		DC3C7A131AEA37A300096215 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3C7A121AEA37A300096215 /* RegisterController.m */; };
+		DC3C7A171AEA489600096215 /* register.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3C7A161AEA489600096215 /* register.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,7 +108,6 @@
 		0494A3DD1AE77D3900AD3B11 /* HttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtils.h; sourceTree = "<group>"; };
 		0494A3DE1AE77D3900AD3B11 /* HttpUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpUtils.m; sourceTree = "<group>"; };
 		0494A3E41AE79F5800AD3B11 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
-		0494A3E51AE7A38200AD3B11 /* register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = register.xib; sourceTree = "<group>"; };
 		0494A3E71AE7A40300AD3B11 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		0494A3E81AE7A40300AD3B11 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		049B5AC11AE6307900FFE171 /* PlatfromApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatfromApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +217,9 @@
 		049B5C1E1AE65DEC00FFE171 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		049B5C201AE65E2E00FFE171 /* 开发过程中遇到的问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "开发过程中遇到的问题"; sourceTree = SOURCE_ROOT; };
 		049B5C211AE65E2E00FFE171 /* 协议的使用和定义 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "协议的使用和定义"; sourceTree = SOURCE_ROOT; };
+		DC3C7A111AEA37A300096215 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		DC3C7A121AEA37A300096215 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		DC3C7A161AEA489600096215 /* register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = register.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,6 +375,8 @@
 				0494A3DE1AE77D3900AD3B11 /* HttpUtils.m */,
 				0494A3E71AE7A40300AD3B11 /* LoginController.h */,
 				0494A3E81AE7A40300AD3B11 /* LoginController.m */,
+				DC3C7A111AEA37A300096215 /* RegisterController.h */,
+				DC3C7A121AEA37A300096215 /* RegisterController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -484,7 +489,7 @@
 				049B5BEE1AE65DAB00FFE171 /* MyCustromCell.h */,
 				049B5BEF1AE65DAB00FFE171 /* MyCustromCell.m */,
 				0494A3DB1AE77C3F00AD3B11 /* login.xib */,
-				0494A3E51AE7A38200AD3B11 /* register.xib */,
+				DC3C7A161AEA489600096215 /* register.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -593,7 +598,7 @@
 				049B5BF31AE65DAB00FFE171 /* IndexFragmentController.xib in Resources */,
 				049B5C221AE65E2E00FFE171 /* 开发过程中遇到的问题 in Resources */,
 				049B5BFB1AE65DAB00FFE171 /* profile@2x.png in Resources */,
-				0494A3E61AE7A38200AD3B11 /* register.xib in Resources */,
+				DC3C7A171AEA489600096215 /* register.xib in Resources */,
 				049B5BFC1AE65DAB00FFE171 /* selected.jpeg in Resources */,
 				049B5BFF1AE65DAB00FFE171 /* separator@2x.jpg in Resources */,
 				049B5BF81AE65DAB00FFE171 /* home.png in Resources */,
@@ -642,6 +647,7 @@
 				049B5BF11AE65DAB00FFE171 /* HomeController.m in Sources */,
 				049B5C0C1AE65DAB00FFE171 /* AFURLSessionManager.m in Sources */,
 				049B5C1C1AE65DAB00FFE171 /* MyCustromCell.m in Sources */,
+				DC3C7A131AEA37A300096215 /* RegisterController.m in Sources */,
 				049B5C0B1AE65DAB00FFE171 /* AFURLResponseSerialization.m in Sources */,
 				049B5BF51AE65DAB00FFE171 /* NMBottomTabBarController.m in Sources */,
 				049B5AC71AE6307900FFE171 /* main.m in Sources */,

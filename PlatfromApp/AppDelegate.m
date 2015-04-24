@@ -24,8 +24,9 @@
  // Override point for customization after application launch.
  self.window.backgroundColor = [UIColor whiteColor];
  ViewController *root = [[ViewController alloc]init];
- UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:root];//先将root添加在navigation上
- [_window setRootViewController:nav];//navigation加在window上
+ self.Navigation = [[UINavigationController alloc]init];//先将root添加在navigation上
+    [self.Navigation pushViewController:root animated:YES];
+    [self.window addSubview:self.Navigation.view];
 [self.window makeKeyAndVisible];  
  return YES;
 

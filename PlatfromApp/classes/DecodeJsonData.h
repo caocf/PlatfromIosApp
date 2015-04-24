@@ -15,5 +15,5 @@ typedef void (^IDecodeWithException)(NSString * mReason);
 
 
 //特别注意是 块代码的时候用得不是指针 而是直接块的名字 作为参数传递
-+(void)decodeResult:(NSString *) mNsResultData success:(IDecodeWithSuccess) success error:(IDecodeWithException) error;
++(void)decodeResult:(NSMutableDictionary *) mNsResultData success:(IDecodeWithSuccess) success error:(IDecodeWithException) error;
 @end

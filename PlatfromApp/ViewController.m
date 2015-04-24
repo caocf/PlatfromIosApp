@@ -44,7 +44,7 @@
 
 
 
- [self presentViewController:tabBarController animated:YES completion:nil ];
+ [self.navigationController pushViewController:tabBarController animated:YES];
 
 
 }

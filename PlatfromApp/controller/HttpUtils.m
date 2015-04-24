@@ -18,10 +18,15 @@
  NSMutableDictionary * mUploadParam = [NSMutableDictionary dictionary];
  [mUploadParam setValue:[parameters JSONData] forKey:@"body"];
 
- [manager POST:APP_URL  parameters:mUploadParam success:^(AFHTTPRequestOperation *operation, id responseObject) {
-  NSString *result = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
-  NSLog(@"%@",result);
-  [DecodeJsonData decodeResult:result
+    //设定类型. (这里要设置request-response的类型)
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    manager.responseSerializer = [AFJSONResponseSerializer serializer];
+    NSString * mPostData = [mUploadParam JSONString];
+    
+ [manager POST:APP_URL  parameters:mPostData success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//  NSString *result = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+//  NSLog(@"%@",result);
+  [DecodeJsonData decodeResult:responseObject
            success:^(NSMutableDictionary * mResult){
             [protocol onDecoded:nil :YES :mResult];
 

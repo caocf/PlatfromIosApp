@@ -33,3 +33,10 @@ UIView *tmpCustomView = [nib objectAtIndex:0];
 
 12. xcode 6.0以后 的xib 的auto默认是打开的 在xib页面的右下方有调节 约束的相关属性 就是如android的相对布局
     同时UIView 的可拖动控件在较下面的位置
+
+13.在使用afns 的时候 json上传数据 返回数据后我给id response 转换为NSString reason: '-[__NSCFDictionary bytes]: unrecognized selector  (exception)
+
+   //异常原因： 因为afn 默认给数据已经转成了NSMutable 对象
+
+14.关于
+

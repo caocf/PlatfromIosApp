@@ -18,7 +18,7 @@
 
 @property (strong ,nonatomic) HttpUtils *mHttpUtils;
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong ,nonatomic) UINavigationController *Navigation;
 
 
 @end

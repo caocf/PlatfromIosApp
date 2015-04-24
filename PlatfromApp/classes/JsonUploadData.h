@@ -10,7 +10,7 @@
 
 @interface JsonUploadData : NSObject
 
-+(NSString * ) getLoginUploadJson:(NSString *) mUserName  : (NSString *) mPassword;
++(NSMutableDictionary * ) getLoginUploadJson:(NSString *) mUserName  : (NSString *) mPassword;
 
 +(NSString * ) getRegisterUploadJson:(NSString *)mUserName : (NSString *) mPassword;
 

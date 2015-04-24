@@ -12,13 +12,13 @@
 
 //Json for data login
 
-+(NSString * ) getLoginUploadJson:(NSString *) mUserName  : (NSString *) mPassword{
++(NSMutableDictionary * ) getLoginUploadJson:(NSString *) mUserName  : (NSString *) mPassword{
  NSMutableDictionary *dict = [NSMutableDictionary dictionary];
- NSString * mUploadJson = nil;
+
  [dict setObject:@"username" forKey:mUserName];
  [dict setObject:@"passwrod" forKey:mPassword];
-  mUploadJson = [dict JSONString];
- return mUploadJson;
+  
+ return dict;
 };
 
 //Json for data register

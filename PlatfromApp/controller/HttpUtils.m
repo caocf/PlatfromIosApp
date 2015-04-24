@@ -9,19 +9,32 @@
 #import "HttpUtils.h"
 #import "AFHTTPRequestOperationManager.h"
 #import "JSONKit.h"
+#import "DecodeJsonData.h"
 
 @implementation HttpUtils
 
-+(void)sendData :(NSDictionary *)parameters   protocal:(id <DecodePlatFormResultProtocol> ) protocol{
++(void)sendData :(NSMutableDictionary *)parameters   protocal:(id <DecodePlatFormResultProtocol> ) protocol{
  AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
- NSDictionary * mUploadParam = [NSDictionary dictionary];
+ NSMutableDictionary * mUploadParam = [NSMutableDictionary dictionary];
  [mUploadParam setValue:[parameters JSONData] forKey:@"body"];
 
  [manager POST:APP_URL  parameters:mUploadParam success:^(AFHTTPRequestOperation *operation, id responseObject) {
+  NSString *result = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+  NSLog(@"%@",result);
+  [DecodeJsonData decodeResult:result
+           success:^(NSMutableDictionary * mResult){
+            [protocol onDecoded:nil :YES :mResult];
 
-  [protocol onDecoded:nil :YES :nil];
+           }
+         error:
+   ^(NSString * mReason){
+    [protocol onDecoded:mReason :NO :nil];
+   }
+
+   ];
+  //[protocol onDecoded:nil :YES :nil];
  } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-
+  //[protocol onHttpError:@""];
  }];
 }
 

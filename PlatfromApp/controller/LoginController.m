@@ -7,23 +7,43 @@
 //
 
 #import "LoginController.h"
+#import "DecodePlatFormResultProtocol.h"
+#import "GMDCircleLoader.h"
+#import "HttpUtils.h"
+#import  "JsonUploadData.h"
 
-@interface LoginController ()
+@interface LoginController () <DecodePlatFormResultProtocol>{
+
+
+}
+
 
 @end
 
+//用于实现
 @implementation LoginController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-  
+ [self.mLoginBt addTarget:self action:@selector(actionLogin) forControlEvents:UIControlEventTouchUpInside];
+
+}
+
+-(void)actionLogin{
+[GMDCircleLoader setOnView:self.view withTitle:@"Loading..." animated:YES];
+ [HttpUtils sendData:[JsonUploadData getLoginUploadJson:@"":@""] protocal:self];
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void) onDecoded :(NSString *)reason : (Boolean) misSuccess :(NSDictionary * ) mResultDictionary{
+ [GMDCircleLoader hideFromView:self.view animated:YES];
 }
 
 /*

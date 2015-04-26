@@ -18,46 +18,46 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mcv-cc-dYp">
-                    <rect key="frame" x="9" y="150" width="582" height="300"/>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mcv-cc-dYp">
+                    <rect key="frame" x="109" y="150" width="342" height="300"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWD-9f-zDX">
-                            <rect key="frame" x="153" y="39" width="68" height="21"/>
+                            <rect key="frame" x="60" y="39" width="68" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWs-pA-Mgv">
-                            <rect key="frame" x="162" y="126" width="51" height="21"/>
+                            <rect key="frame" x="69" y="126" width="51" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ulg-u2-Y1s">
-                            <rect key="frame" x="288" y="30" width="109" height="30"/>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rOa-bK-xQc">
+                            <rect key="frame" x="148" y="122" width="170" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTQ-io-TH7">
+                            <rect key="frame" x="234" y="196" width="30" height="30"/>
+                            <state key="normal" title="登陆">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5b-fU-60I">
+                            <rect key="frame" x="84" y="196" width="30" height="30"/>
+                            <state key="normal" title="注册">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ulg-u2-Y1s">
+                            <rect key="frame" x="148" y="30" width="170" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="109" id="IS8-l4-hRJ"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rOa-bK-xQc">
-                            <rect key="frame" x="288" y="117" width="109" height="30"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTQ-io-TH7">
-                            <rect key="frame" x="321" y="203" width="30" height="30"/>
-                            <state key="normal" title="登陆">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5b-fU-60I">
-                            <rect key="frame" x="185" y="203" width="30" height="30"/>
-                            <state key="normal" title="注册">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                        </button>
                     </subviews>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <constraints>
@@ -65,24 +65,24 @@
                         <constraint firstItem="oWs-pA-Mgv" firstAttribute="bottom" secondItem="rOa-bK-xQc" secondAttribute="bottom" id="2WJ-Wk-umo"/>
                         <constraint firstItem="ulg-u2-Y1s" firstAttribute="bottom" secondItem="AWD-9f-zDX" secondAttribute="bottom" id="3I0-lI-fwx"/>
                         <constraint firstItem="rOa-bK-xQc" firstAttribute="top" secondItem="ulg-u2-Y1s" secondAttribute="bottom" constant="57" id="5bS-vU-9Io"/>
-                        <constraint firstAttribute="trailing" secondItem="cTQ-io-TH7" secondAttribute="trailing" constant="231" id="7bw-jb-xz4"/>
-                        <constraint firstItem="c5b-fU-60I" firstAttribute="leading" secondItem="mcv-cc-dYp" secondAttribute="leading" constant="185" id="80Z-cB-Dwe"/>
                         <constraint firstItem="oWs-pA-Mgv" firstAttribute="centerX" secondItem="AWD-9f-zDX" secondAttribute="centerX" id="9en-cL-fuD"/>
+                        <constraint firstItem="AWD-9f-zDX" firstAttribute="leading" secondItem="mcv-cc-dYp" secondAttribute="leading" constant="60" id="9xI-gK-Cpi"/>
+                        <constraint firstItem="c5b-fU-60I" firstAttribute="leading" secondItem="mcv-cc-dYp" secondAttribute="leading" constant="84" id="CMX-ky-b5d"/>
+                        <constraint firstItem="ulg-u2-Y1s" firstAttribute="top" secondItem="mcv-cc-dYp" secondAttribute="top" constant="30" id="CRB-zn-OGr"/>
                         <constraint firstItem="ulg-u2-Y1s" firstAttribute="leading" secondItem="AWD-9f-zDX" secondAttribute="trailing" constant="67" id="DpN-dX-17Y"/>
                         <constraint firstItem="rOa-bK-xQc" firstAttribute="trailing" secondItem="ulg-u2-Y1s" secondAttribute="trailing" id="EMR-qY-2IP"/>
-                        <constraint firstAttribute="height" constant="300" id="HKE-4e-yNw"/>
-                        <constraint firstItem="AWD-9f-zDX" firstAttribute="leading" secondItem="mcv-cc-dYp" secondAttribute="leading" constant="153" id="XIV-re-Rto"/>
                         <constraint firstItem="ulg-u2-Y1s" firstAttribute="leading" secondItem="rOa-bK-xQc" secondAttribute="leading" id="ZZC-cy-a4P"/>
                         <constraint firstItem="c5b-fU-60I" firstAttribute="top" secondItem="oWs-pA-Mgv" secondAttribute="bottom" constant="56" id="bKc-Dk-pkz"/>
-                        <constraint firstAttribute="width" constant="582" id="eBr-XE-bIP"/>
-                        <constraint firstItem="ulg-u2-Y1s" firstAttribute="top" secondItem="mcv-cc-dYp" secondAttribute="top" constant="30" id="hNS-gV-MOe"/>
+                        <constraint firstAttribute="bottom" secondItem="c5b-fU-60I" secondAttribute="bottom" constant="74" id="cDU-jf-V5j"/>
+                        <constraint firstAttribute="trailing" secondItem="ulg-u2-Y1s" secondAttribute="trailing" constant="24" id="iIZ-os-n4W"/>
+                        <constraint firstAttribute="trailing" secondItem="cTQ-io-TH7" secondAttribute="trailing" constant="78" id="iwg-Uh-Njy"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="mcv-cc-dYp" secondAttribute="centerY" id="Bdf-k1-YER"/>
-                <constraint firstAttribute="centerX" secondItem="mcv-cc-dYp" secondAttribute="centerX" id="pG3-4y-kgq"/>
+                <constraint firstAttribute="centerY" secondItem="mcv-cc-dYp" secondAttribute="centerY" id="6zj-el-Eo0"/>
+                <constraint firstAttribute="centerX" secondItem="mcv-cc-dYp" secondAttribute="centerX" id="EZG-fN-C98"/>
             </constraints>
             <point key="canvasLocation" x="98" y="36"/>
         </view>

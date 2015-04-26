@@ -24,7 +24,7 @@
  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
  // Override point for customization after application launch.
  self.window.backgroundColor = [UIColor whiteColor];
- ViewController *root = [[ViewController alloc]init];
+ LoginController *root = [[LoginController alloc]initWithNibName:@"login" bundle:nil];
  self.Navigation = [[UINavigationController alloc]init];//先将root添加在navigation上
        [self.window addSubview:self.Navigation.view];
     [self.Navigation pushViewController:root animated:YES];

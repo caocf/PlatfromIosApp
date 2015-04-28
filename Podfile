@@ -1,3 +1,3 @@
-platform :ios, ‘6.0’
-pod ‘AFNetworking’ , ‘~> 2.0.3’
 
+platform :ios, '8.3'
+pod 'AFNetworking', '~> 2.0' 

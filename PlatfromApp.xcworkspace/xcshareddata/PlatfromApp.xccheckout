@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0C2DABC-8D7E-40D7-8076-C6E331A8AA64</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PlatfromApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8BEF951B8E3BA2D757D049183AB605EB5D1D4FBC</key>
+		<string>https://github.com/zhujohnle/PlatfromIosApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PlatfromApp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8BEF951B8E3BA2D757D049183AB605EB5D1D4FBC</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhujohnle/PlatfromIosApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8BEF951B8E3BA2D757D049183AB605EB5D1D4FBC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8BEF951B8E3BA2D757D049183AB605EB5D1D4FBC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PlatfromIosApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

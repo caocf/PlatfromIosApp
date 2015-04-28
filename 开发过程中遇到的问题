@@ -42,3 +42,4 @@ UIView *tmpCustomView = [nib objectAtIndex:0];
 
 #import <UIKit/UIKit.h>
 
+15. 加入pods 后不能编译 提示（linker command failed with exit code 1 (use -v to see invocation)的错误调试）

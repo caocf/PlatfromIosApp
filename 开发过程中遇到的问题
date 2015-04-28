@@ -38,5 +38,7 @@ UIView *tmpCustomView = [nib objectAtIndex:0];
 
    //异常原因： 因为afn 默认给数据已经转成了NSMutable 对象
 
-14.关于
+14.关于使用c＋＋的常量表示发 的m文件需要添加如下的头
+
+#import <UIKit/UIKit.h>
 

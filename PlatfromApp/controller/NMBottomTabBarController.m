@@ -8,6 +8,8 @@
 
 #import "NMBottomTabBarController.h"
 #import "GMDCircleLoader.h"
+#import "MJTableViewController.h"
+#import "MJCollectionViewController.H"
 
 @interface NMBottomTabBarController ()
 
@@ -120,10 +122,10 @@
     [super viewDidLoad];
   [self awake];
 
- UIViewController *oneController = [UIViewController new];
+  MJTableViewController *oneController = [MJTableViewController new];
  oneController.view.backgroundColor = [UIColor greenColor];
- UIViewController *twoController = [UIViewController new];
- twoController.view.backgroundColor = [UIColor blueColor];
+ MJCollectionViewController *twoController = [MJCollectionViewController new];
+
  UIViewController *threeController = [UIViewController new];
  threeController.view.backgroundColor = [UIColor purpleColor];
  UIViewController *fourController = [UIViewController new];

@@ -9,7 +9,9 @@
 #import "NMBottomTabBarController.h"
 #import "GMDCircleLoader.h"
 #import "MJTableViewController.h"
-#import "MJCollectionViewController.H"
+#import "MJCollectionViewController.h"
+#import "MainViewController.h"
+#import "TakePhotoController.h"
 
 @interface NMBottomTabBarController ()
 
@@ -125,12 +127,11 @@
   MJTableViewController *oneController = [MJTableViewController new];
  oneController.view.backgroundColor = [UIColor greenColor];
  MJCollectionViewController *twoController = [MJCollectionViewController new];
-
- UIViewController *threeController = [UIViewController new];
+ 
+ MainViewController *threeController = [MainViewController new];
  threeController.view.backgroundColor = [UIColor purpleColor];
- UIViewController *fourController = [UIViewController new];
- fourController.view.backgroundColor = [UIColor orangeColor];
-
+ TakePhotoController *fourController = [TakePhotoController new];
+ 
 
 
  self.tabBar.separatorImage = [UIImage imageNamed:@"separator.jpg"];

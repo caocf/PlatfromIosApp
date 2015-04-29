@@ -75,6 +75,18 @@
 		DC26A4321AEF7F5E0053765A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC26A4311AEF7F5E0053765A /* libsqlite3.dylib */; };
 		DC3C7A131AEA37A300096215 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3C7A121AEA37A300096215 /* RegisterController.m */; };
 		DC3C7A171AEA489600096215 /* register.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3C7A161AEA489600096215 /* register.xib */; };
+		DC55DA361AF0708700E300DB /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55DA311AF0708700E300DB /* ImageViewController.m */; };
+		DC55DA371AF0708700E300DB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55DA331AF0708700E300DB /* MainViewController.m */; };
+		DC55DA381AF0708700E300DB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55DA351AF0708700E300DB /* TableViewController.m */; };
+		DC55DA421AF0CB5200E300DB /* TakePhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55DA401AF0CB5200E300DB /* TakePhotoController.m */; };
+		DC55DA431AF0CB5200E300DB /* TakePhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC55DA411AF0CB5200E300DB /* TakePhotoController.xib */; };
+		DC55DA491AF0E88F00E300DB /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55DA461AF0E88F00E300DB /* EAIntroPage.m */; };
+		DC55DA4A1AF0E88F00E300DB /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55DA481AF0E88F00E300DB /* EAIntroView.m */; };
+		DC55DA4D1AF0E8AD00E300DB /* WelcomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55DA4C1AF0E8AD00E300DB /* WelcomeController.m */; };
+		DC55DA4E1AF0E98800E300DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049B5B7F1AE6320200FFE171 /* CoreGraphics.framework */; };
+		DC55DA561AF0EAED00E300DB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC55DA531AF0EAED00E300DB /* 1.png */; };
+		DC55DA571AF0EAED00E300DB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC55DA541AF0EAED00E300DB /* 2.png */; };
+		DC55DA581AF0EAED00E300DB /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC55DA551AF0EAED00E300DB /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,6 +219,24 @@
 		DC3C7A111AEA37A300096215 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
 		DC3C7A121AEA37A300096215 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
 		DC3C7A161AEA489600096215 /* register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = register.xib; sourceTree = "<group>"; };
+		DC55DA301AF0708700E300DB /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		DC55DA311AF0708700E300DB /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		DC55DA321AF0708700E300DB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DC55DA331AF0708700E300DB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DC55DA341AF0708700E300DB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DC55DA351AF0708700E300DB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DC55DA3F1AF0CB5200E300DB /* TakePhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoController.h; sourceTree = "<group>"; };
+		DC55DA401AF0CB5200E300DB /* TakePhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoController.m; sourceTree = "<group>"; };
+		DC55DA411AF0CB5200E300DB /* TakePhotoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakePhotoController.xib; sourceTree = "<group>"; };
+		DC55DA451AF0E88F00E300DB /* EAIntroPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroPage.h; sourceTree = "<group>"; };
+		DC55DA461AF0E88F00E300DB /* EAIntroPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroPage.m; sourceTree = "<group>"; };
+		DC55DA471AF0E88F00E300DB /* EAIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
+		DC55DA481AF0E88F00E300DB /* EAIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroView.m; sourceTree = "<group>"; };
+		DC55DA4B1AF0E8AD00E300DB /* WelcomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeController.h; sourceTree = "<group>"; };
+		DC55DA4C1AF0E8AD00E300DB /* WelcomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeController.m; sourceTree = "<group>"; };
+		DC55DA531AF0EAED00E300DB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DC55DA541AF0EAED00E300DB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		DC55DA551AF0EAED00E300DB /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		E2A70B527298677E2B2F24B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,6 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC55DA4E1AF0E98800E300DB /* CoreGraphics.framework in Frameworks */,
 				DC26A4321AEF7F5E0053765A /* libsqlite3.dylib in Frameworks */,
 				049B5B841AE6321500FFE171 /* UIKit.framework in Frameworks */,
 				049B5B7E1AE631F900FFE171 /* QuartzCore.framework in Frameworks */,
@@ -343,6 +374,9 @@
 		049B5B9A1AE65DAB00FFE171 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				DC55DA441AF0E88F00E300DB /* EAIntroView */,
+				DC55DA391AF0CAFC00E300DB /* takephoto */,
+				DC55DA2F1AF0708700E300DB /* asyimageloadcontroller */,
 				DC26A41A1AEF5B540053765A /* scroll＋head */,
 				049B5B9B1AE65DAB00FFE171 /* AFNNetworkController.h */,
 				049B5B9C1AE65DAB00FFE171 /* AFNNetworkController.m */,
@@ -363,6 +397,8 @@
 				0494A3E81AE7A40300AD3B11 /* LoginController.m */,
 				DC3C7A111AEA37A300096215 /* RegisterController.h */,
 				DC3C7A121AEA37A300096215 /* RegisterController.m */,
+				DC55DA4B1AF0E8AD00E300DB /* WelcomeController.h */,
+				DC55DA4C1AF0E8AD00E300DB /* WelcomeController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -370,6 +406,9 @@
 		049B5BA81AE65DAB00FFE171 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DC55DA531AF0EAED00E300DB /* 1.png */,
+				DC55DA541AF0EAED00E300DB /* 2.png */,
+				DC55DA551AF0EAED00E300DB /* 3.png */,
 				049B5BA91AE65DAB00FFE171 /* calendar.png */,
 				049B5BAA1AE65DAB00FFE171 /* home.png */,
 				049B5BAB1AE65DAB00FFE171 /* home@2x.png */,
@@ -507,6 +546,40 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DC55DA2F1AF0708700E300DB /* asyimageloadcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				DC55DA301AF0708700E300DB /* ImageViewController.h */,
+				DC55DA311AF0708700E300DB /* ImageViewController.m */,
+				DC55DA321AF0708700E300DB /* MainViewController.h */,
+				DC55DA331AF0708700E300DB /* MainViewController.m */,
+				DC55DA341AF0708700E300DB /* TableViewController.h */,
+				DC55DA351AF0708700E300DB /* TableViewController.m */,
+			);
+			path = asyimageloadcontroller;
+			sourceTree = "<group>";
+		};
+		DC55DA391AF0CAFC00E300DB /* takephoto */ = {
+			isa = PBXGroup;
+			children = (
+				DC55DA3F1AF0CB5200E300DB /* TakePhotoController.h */,
+				DC55DA401AF0CB5200E300DB /* TakePhotoController.m */,
+				DC55DA411AF0CB5200E300DB /* TakePhotoController.xib */,
+			);
+			path = takephoto;
+			sourceTree = "<group>";
+		};
+		DC55DA441AF0E88F00E300DB /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				DC55DA451AF0E88F00E300DB /* EAIntroPage.h */,
+				DC55DA461AF0E88F00E300DB /* EAIntroPage.m */,
+				DC55DA471AF0E88F00E300DB /* EAIntroView.h */,
+				DC55DA481AF0E88F00E300DB /* EAIntroView.m */,
+			);
+			path = EAIntroView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -589,15 +662,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC55DA571AF0EAED00E300DB /* 2.png in Resources */,
 				049B5C001AE65DAB00FFE171 /* settings.png in Resources */,
 				049B5BF71AE65DAB00FFE171 /* calendar.png in Resources */,
 				049B5C1B1AE65DAB00FFE171 /* item_view.xib in Resources */,
+				DC55DA431AF0CB5200E300DB /* TakePhotoController.xib in Resources */,
+				DC55DA561AF0EAED00E300DB /* 1.png in Resources */,
 				049B5BFD1AE65DAB00FFE171 /* selected@2x.jpeg in Resources */,
 				049B5BFE1AE65DAB00FFE171 /* separator.jpg in Resources */,
 				049B5C011AE65DAB00FFE171 /* settings@2x.png in Resources */,
 				049B5C231AE65E2E00FFE171 /* 协议的使用和定义 in Resources */,
 				049B5AD81AE6307900FFE171 /* LaunchScreen.xib in Resources */,
 				DC26A42B1AEF5B540053765A /* MJTestViewController.xib in Resources */,
+				DC55DA581AF0EAED00E300DB /* 3.png in Resources */,
 				049B5BFA1AE65DAB00FFE171 /* profile.png in Resources */,
 				0494A3DC1AE77C3F00AD3B11 /* login.xib in Resources */,
 				049B5BF31AE65DAB00FFE171 /* IndexFragmentController.xib in Resources */,
@@ -667,8 +744,10 @@
 				DC26A4111AEF534B0053765A /* MJRefreshHeaderView.m in Sources */,
 				0494A3D61AE74C8600AD3B11 /* JSONKit.m in Sources */,
 				049B5BF61AE65DAB00FFE171 /* SqliteOperateController.m in Sources */,
+				DC55DA491AF0E88F00E300DB /* EAIntroPage.m in Sources */,
 				DC26A4271AEF5B540053765A /* MJNavigationController.m in Sources */,
 				DC26A4291AEF5B540053765A /* MJTableViewController.m in Sources */,
+				DC55DA381AF0708700E300DB /* TableViewController.m in Sources */,
 				DC26A40E1AEF534B0053765A /* MJRefreshBaseView.m in Sources */,
 				DC26A4181AEF57FD0053765A /* MJRefreshConst.m in Sources */,
 				DC26A4141AEF534B0053765A /* UIView+MJExtension.m in Sources */,
@@ -679,6 +758,7 @@
 				049B5C0F1AE65DAB00FFE171 /* FMDatabasePool.m in Sources */,
 				DC26A42F1AEF5B890053765A /* MJSampleIndex.m in Sources */,
 				049B5C111AE65DAB00FFE171 /* FMResultSet.m in Sources */,
+				DC55DA361AF0708700E300DB /* ImageViewController.m in Sources */,
 				049B5C0E1AE65DAB00FFE171 /* FMDatabaseAdditions.m in Sources */,
 				DC26A4131AEF534B0053765A /* UIScrollView+MJRefresh.m in Sources */,
 				049B5BF21AE65DAB00FFE171 /* IndexFragmentController.m in Sources */,
@@ -686,8 +766,11 @@
 				049B5ACD1AE6307900FFE171 /* PlatfromApp.xcdatamodeld in Sources */,
 				049B5ACA1AE6307900FFE171 /* AppDelegate.m in Sources */,
 				049B5C101AE65DAB00FFE171 /* FMDatabaseQueue.m in Sources */,
+				DC55DA371AF0708700E300DB /* MainViewController.m in Sources */,
+				DC55DA421AF0CB5200E300DB /* TakePhotoController.m in Sources */,
 				049B5BF11AE65DAB00FFE171 /* HomeController.m in Sources */,
 				049B5C1C1AE65DAB00FFE171 /* MyCustromCell.m in Sources */,
+				DC55DA4D1AF0E8AD00E300DB /* WelcomeController.m in Sources */,
 				DC3C7A131AEA37A300096215 /* RegisterController.m in Sources */,
 				049B5BF51AE65DAB00FFE171 /* NMBottomTabBarController.m in Sources */,
 				049B5AC71AE6307900FFE171 /* main.m in Sources */,
@@ -698,6 +781,7 @@
 				DC26A4261AEF5B540053765A /* MJCollectionViewController.m in Sources */,
 				049B5BF41AE65DAB00FFE171 /* NMBottomTabBar.m in Sources */,
 				0494A3DF1AE77D3900AD3B11 /* HttpUtils.m in Sources */,
+				DC55DA4A1AF0E88F00E300DB /* EAIntroView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "LoginController.h"
 #import  "ViewController.h"
+#import  "WelcomeController.h"
 
 
 @interface AppDelegate ()
@@ -19,12 +20,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+   
+  
 
- [UIApplication sharedApplication].networkActivityIndicatorVisible = NO; 
  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
  // Override point for customization after application launch.
  self.window.backgroundColor = [UIColor whiteColor];
- LoginController *root = [[LoginController alloc]initWithNibName:@"login" bundle:nil];
+ WelcomeController *root = [[WelcomeController alloc]init];
  self.Navigation = [[UINavigationController alloc]init];//先将root添加在navigation上
        [self.window addSubview:self.Navigation.view];
     [self.Navigation pushViewController:root animated:YES];

@@ -13,8 +13,9 @@
 #import  "JsonUploadData.h"
 #import "NMBottomTabBarController.h"
 #import "RegisterController.h"
+#import "IQKeyboardManager.h"
 
-@interface LoginController () <DecodePlatFormResultProtocol>{
+@interface LoginController () <DecodePlatFormResultProtocol,UITextFieldDelegate,UITextViewDelegate>{
 
 
 }
@@ -25,7 +26,9 @@
 @implementation LoginController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    [[IQKeyboardManager sharedManager] setEnable:YES];
     // Do any additional setup after loading the view.
  self.title = @"登录";
  [self.mLoginBt addTarget:self action:@selector(actionLogin) forControlEvents:UIControlEventTouchUpInside];
@@ -33,12 +36,30 @@
 
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return YES;
+}
+
 -(void)actionLogin{
+    
     NSString * mAccount  = self.maccount.text;
     NSString * mPassword = self.mpassword.text;
 [GMDCircleLoader setOnView:self.view withTitle:@"Loading..." animated:YES];
  [HttpUtils sendData:[JsonUploadData getLoginUploadJson:mAccount:mPassword] protocal:self];
 
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[IQKeyboardManager sharedManager] setShouldToolbarUsesTextFieldTintColor:YES];
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [[IQKeyboardManager sharedManager] setShouldToolbarUsesTextFieldTintColor:NO];
 }
 
 -(void)actionRegister{

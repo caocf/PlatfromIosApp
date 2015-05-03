@@ -13,9 +13,10 @@
 #import  "JsonUploadData.h"
 #import "NMBottomTabBarController.h"
 #import "RegisterController.h"
-#import "IQKeyboardManager.h"
 
-@interface LoginController () <DecodePlatFormResultProtocol,UITextFieldDelegate,UITextViewDelegate>{
+
+
+@interface LoginController () <DecodePlatFormResultProtocol>{
 
 
 }
@@ -28,11 +29,13 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    [[IQKeyboardManager sharedManager] setEnable:YES];
+   
     // Do any additional setup after loading the view.
  self.title = @"登录";
  [self.mLoginBt addTarget:self action:@selector(actionLogin) forControlEvents:UIControlEventTouchUpInside];
    [self.mRegisterBt addTarget:self action:@selector(actionRegister) forControlEvents:UIControlEventTouchUpInside];
+    
+
 
 }
 
@@ -50,17 +53,7 @@
 
 }
 
--(void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [[IQKeyboardManager sharedManager] setShouldToolbarUsesTextFieldTintColor:YES];
-}
 
--(void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-    [[IQKeyboardManager sharedManager] setShouldToolbarUsesTextFieldTintColor:NO];
-}
 
 -(void)actionRegister{
     RegisterController * mRegisterController = [[RegisterController alloc]initWithNibName:@"register" bundle:nil];

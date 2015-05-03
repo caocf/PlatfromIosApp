@@ -42,4 +42,11 @@ UIView *tmpCustomView = [nib objectAtIndex:0];
 
 #import <UIKit/UIKit.h>
 
-15. 加入pods 后不能编译 提示（linker command failed with exit code 1 (use -v to see invocation)的错误调试）
+15. 加入pods 后不能编译 提示（linker command failed with exit code 1 (use -v to see invocation)的错误调试）需要多pod 和工程进行clean即可
+
+16 pod 更新时提示 已经有相关地址 或者private key 解决办法：sudo rm -fr ~/.cocoapods/repos/master
+$ pod setup (这个知识在工程合并的时候会出现 )
+
+   根治的办法是 ，删除本地的pod 引用 重新编辑Podfile 并install
+
+

@@ -58,13 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PlatfromApp/controller/LoginController.h"
-            timestampString = "451558161.568008"
+            timestampString = "452192475.791465"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "mRegisterBt"
-            landmarkType = "19">
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "@interface LoginController"
+            landmarkType = "2">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PlatfromApp/controller/LoginController.m"
-            timestampString = "452082421.748596"
+            timestampString = "452269773.391019"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "-actionLogin"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PlatfromApp/controller/LoginController.m"
-            timestampString = "452082421.748596"
+            timestampString = "452269773.391019"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "-onDecoded:::"
             landmarkType = "5">
          </BreakpointContent>

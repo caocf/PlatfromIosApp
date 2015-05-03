@@ -10,6 +10,9 @@
 #import "LoginController.h"
 #import  "ViewController.h"
 #import  "WelcomeController.h"
+#import "IQKeyboardManager.h"
+
+
 
 
 @interface AppDelegate ()
@@ -20,6 +23,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
     
    
   
@@ -30,9 +37,14 @@
  WelcomeController *root = [[WelcomeController alloc]init];
  self.Navigation = [[UINavigationController alloc]init];//先将root添加在navigation上
        [self.window addSubview:self.Navigation.view];
+   
     [self.Navigation pushViewController:root animated:YES];
+    
+    
 
-[self.window makeKeyAndVisible];  
+    
+
+[self.window makeKeyAndVisible];
  return YES;
 
 

@@ -56,7 +56,7 @@
 		049B5C1F1AE65DEC00FFE171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B5C1E1AE65DEC00FFE171 /* ViewController.m */; };
 		049B5C221AE65E2E00FFE171 /* 开发过程中遇到的问题 in Resources */ = {isa = PBXBuildFile; fileRef = 049B5C201AE65E2E00FFE171 /* 开发过程中遇到的问题 */; };
 		049B5C231AE65E2E00FFE171 /* 协议的使用和定义 in Resources */ = {isa = PBXBuildFile; fileRef = 049B5C211AE65E2E00FFE171 /* 协议的使用和定义 */; };
-		BFBFA68F31CF712B709B892D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B3A237CA50FFEC7ACDC1CD /* libPods.a */; };
+		46EAD0C46A2DA1697128AB77 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3044F9E366C074614FC7A80C /* libPods.a */; };
 		DC26A40D1AEF534B0053765A /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC26A3FD1AEF534B0053765A /* MJRefresh.bundle */; };
 		DC26A40E1AEF534B0053765A /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC26A4001AEF534B0053765A /* MJRefreshBaseView.m */; };
 		DC26A4101AEF534B0053765A /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC26A4041AEF534B0053765A /* MJRefreshFooterView.m */; };
@@ -73,16 +73,6 @@
 		DC26A42B1AEF5B540053765A /* MJTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC26A4251AEF5B540053765A /* MJTestViewController.xib */; };
 		DC26A42F1AEF5B890053765A /* MJSampleIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = DC26A42E1AEF5B890053765A /* MJSampleIndex.m */; };
 		DC26A4321AEF7F5E0053765A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC26A4311AEF7F5E0053765A /* libsqlite3.dylib */; };
-		DC294FFC1AF21B69006CAC26 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC294FE61AF21B69006CAC26 /* IQKeyboardManager.bundle */; };
-		DC294FFD1AF21B69006CAC26 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC294FE81AF21B69006CAC26 /* IQKeyboardManager.m */; };
-		DC294FFE1AF21B69006CAC26 /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = DC294FEC1AF21B69006CAC26 /* IQSegmentedNextPrevious.m */; };
-		DC294FFF1AF21B69006CAC26 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC294FEE1AF21B69006CAC26 /* IQTextView.m */; };
-		DC2950001AF21B69006CAC26 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC294FF01AF21B69006CAC26 /* IQTitleBarButtonItem.m */; };
-		DC2950011AF21B69006CAC26 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DC294FF21AF21B69006CAC26 /* IQToolbar.m */; };
-		DC2950021AF21B69006CAC26 /* NSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = DC294FF51AF21B69006CAC26 /* NSArray+Sort.m */; };
-		DC2950031AF21B69006CAC26 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC294FF71AF21B69006CAC26 /* UIView+Hierarchy.m */; };
-		DC2950041AF21B69006CAC26 /* UIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DC294FF91AF21B69006CAC26 /* UIView+IQKeyboardToolbar.m */; };
-		DC2950051AF21B69006CAC26 /* UIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC294FFB1AF21B69006CAC26 /* UIWindow+Hierarchy.m */; };
 		DC3C7A131AEA37A300096215 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3C7A121AEA37A300096215 /* RegisterController.m */; };
 		DC3C7A171AEA489600096215 /* register.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3C7A161AEA489600096215 /* register.xib */; };
 		DC55DA361AF0708700E300DB /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55DA311AF0708700E300DB /* ImageViewController.m */; };
@@ -194,8 +184,9 @@
 		049B5C1E1AE65DEC00FFE171 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		049B5C201AE65E2E00FFE171 /* 开发过程中遇到的问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "开发过程中遇到的问题"; sourceTree = SOURCE_ROOT; };
 		049B5C211AE65E2E00FFE171 /* 协议的使用和定义 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "协议的使用和定义"; sourceTree = SOURCE_ROOT; };
-		38B3A237CA50FFEC7ACDC1CD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		781B3FF7E2B31D4EF7B46E8C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3044F9E366C074614FC7A80C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D1C3185BDC1827E4FC11B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A9025808A2D43EE2C87D3477 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DC26A3FD1AEF534B0053765A /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
 		DC26A3FE1AEF534B0053765A /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
 		DC26A3FF1AEF534B0053765A /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
@@ -226,28 +217,6 @@
 		DC26A42D1AEF5B890053765A /* MJSampleIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSampleIndex.h; sourceTree = "<group>"; };
 		DC26A42E1AEF5B890053765A /* MJSampleIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSampleIndex.m; sourceTree = "<group>"; };
 		DC26A4311AEF7F5E0053765A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		DC294FE61AF21B69006CAC26 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
-		DC294FE71AF21B69006CAC26 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
-		DC294FE81AF21B69006CAC26 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
-		DC294FE91AF21B69006CAC26 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
-		DC294FEA1AF21B69006CAC26 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
-		DC294FEB1AF21B69006CAC26 /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
-		DC294FEC1AF21B69006CAC26 /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
-		DC294FED1AF21B69006CAC26 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
-		DC294FEE1AF21B69006CAC26 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
-		DC294FEF1AF21B69006CAC26 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
-		DC294FF01AF21B69006CAC26 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
-		DC294FF11AF21B69006CAC26 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
-		DC294FF21AF21B69006CAC26 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
-		DC294FF31AF21B69006CAC26 /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
-		DC294FF41AF21B69006CAC26 /* NSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Sort.h"; sourceTree = "<group>"; };
-		DC294FF51AF21B69006CAC26 /* NSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Sort.m"; sourceTree = "<group>"; };
-		DC294FF61AF21B69006CAC26 /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
-		DC294FF71AF21B69006CAC26 /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
-		DC294FF81AF21B69006CAC26 /* UIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
-		DC294FF91AF21B69006CAC26 /* UIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		DC294FFA1AF21B69006CAC26 /* UIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Hierarchy.h"; sourceTree = "<group>"; };
-		DC294FFB1AF21B69006CAC26 /* UIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Hierarchy.m"; sourceTree = "<group>"; };
 		DC3C7A111AEA37A300096215 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
 		DC3C7A121AEA37A300096215 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
 		DC3C7A161AEA489600096215 /* register.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = register.xib; sourceTree = "<group>"; };
@@ -269,7 +238,6 @@
 		DC55DA531AF0EAED00E300DB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		DC55DA541AF0EAED00E300DB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		DC55DA551AF0EAED00E300DB /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
-		E2A70B527298677E2B2F24B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,7 +253,7 @@
 				049B5B7A1AE631EA00FFE171 /* CoreData.framework in Frameworks */,
 				049B5B781AE631E200FFE171 /* CoreFoundation.framework in Frameworks */,
 				049B5B761AE631DB00FFE171 /* CoreTelephony.framework in Frameworks */,
-				BFBFA68F31CF712B709B892D /* libPods.a in Frameworks */,
+				46EAD0C46A2DA1697128AB77 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +308,8 @@
 				049B5AC31AE6307900FFE171 /* PlatfromApp */,
 				049B5AE01AE6307900FFE171 /* PlatfromAppTests */,
 				049B5AC21AE6307900FFE171 /* Products */,
-				986A308FD32DF7209852EED0 /* Pods */,
 				76984A3575798C6BD473C47E /* Frameworks */,
+				AE8AC9C6BB89C621DECB3E5E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -461,7 +429,6 @@
 		049B5BB61AE65DAB00FFE171 /* library */ = {
 			isa = PBXGroup;
 			children = (
-				DC294FE51AF21B69006CAC26 /* IQKeyBoardManager */,
 				DC26A3FC1AEF534B0053765A /* MJRefresh */,
 				049B5BEA1AE65DAB00FFE171 /* GMDCircleLoader */,
 				0494A3D41AE74C8600AD3B11 /* JSONKit.h */,
@@ -515,16 +482,16 @@
 			isa = PBXGroup;
 			children = (
 				DC26A4311AEF7F5E0053765A /* libsqlite3.dylib */,
-				38B3A237CA50FFEC7ACDC1CD /* libPods.a */,
+				3044F9E366C074614FC7A80C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		986A308FD32DF7209852EED0 /* Pods */ = {
+		AE8AC9C6BB89C621DECB3E5E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E2A70B527298677E2B2F24B6 /* Pods.debug.xcconfig */,
-				781B3FF7E2B31D4EF7B46E8C /* Pods.release.xcconfig */,
+				65D1C3185BDC1827E4FC11B3 /* Pods.debug.xcconfig */,
+				A9025808A2D43EE2C87D3477 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -577,35 +544,6 @@
 				DC26A42E1AEF5B890053765A /* MJSampleIndex.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		DC294FE51AF21B69006CAC26 /* IQKeyBoardManager */ = {
-			isa = PBXGroup;
-			children = (
-				DC294FE61AF21B69006CAC26 /* IQKeyboardManager.bundle */,
-				DC294FE71AF21B69006CAC26 /* IQKeyboardManager.h */,
-				DC294FE81AF21B69006CAC26 /* IQKeyboardManager.m */,
-				DC294FE91AF21B69006CAC26 /* IQKeyboardManagerConstants.h */,
-				DC294FEA1AF21B69006CAC26 /* IQKeyboardManagerConstantsInternal.h */,
-				DC294FEB1AF21B69006CAC26 /* IQSegmentedNextPrevious.h */,
-				DC294FEC1AF21B69006CAC26 /* IQSegmentedNextPrevious.m */,
-				DC294FED1AF21B69006CAC26 /* IQTextView.h */,
-				DC294FEE1AF21B69006CAC26 /* IQTextView.m */,
-				DC294FEF1AF21B69006CAC26 /* IQTitleBarButtonItem.h */,
-				DC294FF01AF21B69006CAC26 /* IQTitleBarButtonItem.m */,
-				DC294FF11AF21B69006CAC26 /* IQToolbar.h */,
-				DC294FF21AF21B69006CAC26 /* IQToolbar.m */,
-				DC294FF31AF21B69006CAC26 /* KeyboardManager.h */,
-				DC294FF41AF21B69006CAC26 /* NSArray+Sort.h */,
-				DC294FF51AF21B69006CAC26 /* NSArray+Sort.m */,
-				DC294FF61AF21B69006CAC26 /* UIView+Hierarchy.h */,
-				DC294FF71AF21B69006CAC26 /* UIView+Hierarchy.m */,
-				DC294FF81AF21B69006CAC26 /* UIView+IQKeyboardToolbar.h */,
-				DC294FF91AF21B69006CAC26 /* UIView+IQKeyboardToolbar.m */,
-				DC294FFA1AF21B69006CAC26 /* UIWindow+Hierarchy.h */,
-				DC294FFB1AF21B69006CAC26 /* UIWindow+Hierarchy.m */,
-			);
-			path = IQKeyBoardManager;
 			sourceTree = "<group>";
 		};
 		DC55DA2F1AF0708700E300DB /* asyimageloadcontroller */ = {
@@ -742,7 +680,6 @@
 				049B5BF31AE65DAB00FFE171 /* IndexFragmentController.xib in Resources */,
 				049B5C221AE65E2E00FFE171 /* 开发过程中遇到的问题 in Resources */,
 				049B5BFB1AE65DAB00FFE171 /* profile@2x.png in Resources */,
-				DC294FFC1AF21B69006CAC26 /* IQKeyboardManager.bundle in Resources */,
 				DC3C7A171AEA489600096215 /* register.xib in Resources */,
 				049B5BFC1AE65DAB00FFE171 /* selected.jpeg in Resources */,
 				049B5BFF1AE65DAB00FFE171 /* separator@2x.jpg in Resources */,
@@ -806,8 +743,6 @@
 				DC26A4281AEF5B540053765A /* MJSampleIndexViewController.m in Sources */,
 				DC26A4111AEF534B0053765A /* MJRefreshHeaderView.m in Sources */,
 				0494A3D61AE74C8600AD3B11 /* JSONKit.m in Sources */,
-				DC2950031AF21B69006CAC26 /* UIView+Hierarchy.m in Sources */,
-				DC294FFD1AF21B69006CAC26 /* IQKeyboardManager.m in Sources */,
 				049B5BF61AE65DAB00FFE171 /* SqliteOperateController.m in Sources */,
 				DC55DA491AF0E88F00E300DB /* EAIntroPage.m in Sources */,
 				DC26A4271AEF5B540053765A /* MJNavigationController.m in Sources */,
@@ -817,15 +752,11 @@
 				DC26A4181AEF57FD0053765A /* MJRefreshConst.m in Sources */,
 				DC26A4141AEF534B0053765A /* UIView+MJExtension.m in Sources */,
 				DC26A4121AEF534B0053765A /* UIScrollView+MJExtension.m in Sources */,
-				DC2950041AF21B69006CAC26 /* UIView+IQKeyboardToolbar.m in Sources */,
 				DC26A4101AEF534B0053765A /* MJRefreshFooterView.m in Sources */,
 				0494A3B91AE73F8600AD3B11 /* JsonUploadData.m in Sources */,
 				049B5C0D1AE65DAB00FFE171 /* FMDatabase.m in Sources */,
-				DC2950021AF21B69006CAC26 /* NSArray+Sort.m in Sources */,
 				049B5C0F1AE65DAB00FFE171 /* FMDatabasePool.m in Sources */,
-				DC2950001AF21B69006CAC26 /* IQTitleBarButtonItem.m in Sources */,
 				DC26A42F1AEF5B890053765A /* MJSampleIndex.m in Sources */,
-				DC294FFF1AF21B69006CAC26 /* IQTextView.m in Sources */,
 				049B5C111AE65DAB00FFE171 /* FMResultSet.m in Sources */,
 				DC55DA361AF0708700E300DB /* ImageViewController.m in Sources */,
 				049B5C0E1AE65DAB00FFE171 /* FMDatabaseAdditions.m in Sources */,
@@ -840,16 +771,13 @@
 				049B5BF11AE65DAB00FFE171 /* HomeController.m in Sources */,
 				049B5C1C1AE65DAB00FFE171 /* MyCustromCell.m in Sources */,
 				DC55DA4D1AF0E8AD00E300DB /* WelcomeController.m in Sources */,
-				DC2950011AF21B69006CAC26 /* IQToolbar.m in Sources */,
 				DC3C7A131AEA37A300096215 /* RegisterController.m in Sources */,
 				049B5BF51AE65DAB00FFE171 /* NMBottomTabBarController.m in Sources */,
 				049B5AC71AE6307900FFE171 /* main.m in Sources */,
 				DC26A42A1AEF5B540053765A /* MJTestViewController.m in Sources */,
 				0494A3D91AE7515000AD3B11 /* DecodeJsonData.m in Sources */,
-				DC294FFE1AF21B69006CAC26 /* IQSegmentedNextPrevious.m in Sources */,
 				049B5C1A1AE65DAB00FFE171 /* GMDCircleLoader.m in Sources */,
 				0494A3E91AE7A40300AD3B11 /* LoginController.m in Sources */,
-				DC2950051AF21B69006CAC26 /* UIWindow+Hierarchy.m in Sources */,
 				DC26A4261AEF5B540053765A /* MJCollectionViewController.m in Sources */,
 				049B5BF41AE65DAB00FFE171 /* NMBottomTabBar.m in Sources */,
 				0494A3DF1AE77D3900AD3B11 /* HttpUtils.m in Sources */,
@@ -965,7 +893,7 @@
 		};
 		049B5AE81AE6307900FFE171 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2A70B527298677E2B2F24B6 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 65D1C3185BDC1827E4FC11B3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
@@ -977,7 +905,7 @@
 		};
 		049B5AE91AE6307900FFE171 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781B3FF7E2B31D4EF7B46E8C /* Pods.release.xcconfig */;
+			baseConfigurationReference = A9025808A2D43EE2C87D3477 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;

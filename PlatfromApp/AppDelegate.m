@@ -11,6 +11,10 @@
 #import  "ViewController.h"
 #import  "WelcomeController.h"
 #import "IQKeyboardManager.h"
+#import "PlatfromApp-Swift.h"
+
+
+
 
 
 
@@ -20,7 +24,6 @@
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
@@ -34,7 +37,8 @@
  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
  // Override point for customization after application launch.
  self.window.backgroundColor = [UIColor whiteColor];
- WelcomeController *root = [[WelcomeController alloc]init];
+    
+  FirstSwift *root = [[FirstSwift alloc]init];
  self.Navigation = [[UINavigationController alloc]init];//先将root添加在navigation上
        [self.window addSubview:self.Navigation.view];
    

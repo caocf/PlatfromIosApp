@@ -13,12 +13,13 @@
 #import  "JsonUploadData.h"
 #import "NMBottomTabBarController.h"
 #import "RegisterController.h"
-
+#import "IQKeyboardReturnKeyHandler.h"
+#import  "IQKeyboardManager.h"
 
 
 @interface LoginController () <DecodePlatFormResultProtocol>{
 
-
+IQKeyboardReturnKeyHandler *returnKeyHandler;
 }
 
 @end
@@ -34,7 +35,11 @@
  self.title = @"登录";
  [self.mLoginBt addTarget:self action:@selector(actionLogin) forControlEvents:UIControlEventTouchUpInside];
    [self.mRegisterBt addTarget:self action:@selector(actionRegister) forControlEvents:UIControlEventTouchUpInside];
+    [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
     
+    returnKeyHandler = [[IQKeyboardReturnKeyHandler alloc] initWithViewController:self];
+    [returnKeyHandler setLastTextFieldReturnKeyType:UIReturnKeyDone];
+    returnKeyHandler.toolbarManageBehaviour = IQAutoToolbarByPosition;
 
 
 }

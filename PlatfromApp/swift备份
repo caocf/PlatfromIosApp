@@ -1,0 +1,6 @@
+1. 必包的使用
+
+  结构  pre：（int）-> (Boolean)
+  函数： var  pre（int）->(Boolean)
+
+  使用必包 

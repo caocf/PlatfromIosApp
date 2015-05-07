@@ -10,6 +10,7 @@
 #import "HttpUtils.h"
 
 #import <CoreData/CoreData.h>
+@class FirstSwift;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

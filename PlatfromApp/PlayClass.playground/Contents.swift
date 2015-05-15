@@ -70,3 +70,9 @@ MyClass.PI ; //知道这个pi什么意思了吧
 mObject.width = 20;
 
 
+
+
+
+
+
+

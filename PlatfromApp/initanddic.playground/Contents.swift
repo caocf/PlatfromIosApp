@@ -74,5 +74,44 @@ var namet :String! = "good";
 
 var namet1  :String  = namet;
 
+struct temp{
+    
+    var name :String
+    
+    mutating func setName (){
+     self.name = "23";
+    }
+}
 
+temp(name: "dfdf")
+
+
+// 如下这个是有问题的 value 因为是范型 则就不能直接＝＝
+//
+//func findIndex<T>(array: [T], valueToFind: T) -> Int? {
+//    for (index, value) in enumerate(array) {
+//    if value == valueToFind {
+//    return index
+//    }
+//    }
+//    return nil
+//}
+
+func findIndex<T: Equatable> (array :[T] ,valueToFind : T) ->Int?{
+    
+    for (index, value) in enumerate(array) {
+    if value == valueToFind {
+    return index
+    }
+    }
+    
+    return nil;
+}
+
+protocol Container {
+        typealias ItemType
+        mutating func append(item: ItemType)
+        var count: Int { get }
+        subscript(i: Int) -> ItemType { get }
+}
 

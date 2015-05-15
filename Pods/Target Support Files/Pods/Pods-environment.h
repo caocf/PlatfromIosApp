@@ -54,6 +54,12 @@
 #define COCOAPODS_VERSION_MINOR_IQKeyboardManager 2
 #define COCOAPODS_VERSION_PATCH_IQKeyboardManager 3
 
+// MessageDisplayKit
+#define COCOAPODS_POD_AVAILABLE_MessageDisplayKit
+#define COCOAPODS_VERSION_MAJOR_MessageDisplayKit 3
+#define COCOAPODS_VERSION_MINOR_MessageDisplayKit 0
+#define COCOAPODS_VERSION_PATCH_MessageDisplayKit 2
+
 // SDWebImage
 #define COCOAPODS_POD_AVAILABLE_SDWebImage
 #define COCOAPODS_VERSION_MAJOR_SDWebImage 3

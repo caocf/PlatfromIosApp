@@ -47,6 +47,11 @@ UIView *tmpCustomView = [nib objectAtIndex:0];
 16 pod 更新时提示 已经有相关地址 或者private key 解决办法：sudo rm -fr ~/.cocoapods/repos/master
 $ pod setup (这个知识在工程合并的时候会出现 )
 
-   根治的办法是 ，删除本地的pod 引用 重新编辑Podfile 并install
+   根治的办法是 ，删除本地的pod 引用 重新编辑Podfile 并install ，（如果更换podfile的结构 就需要重新执行以上操作）
+
+
+17。 UIImage *image=[UIImage imageNamed:@"chatfrom_bg.png"];
+image = [image stretchableImageWithLeftCapWidth:image.size.width * 0.5 topCapHeight:image.size.height * 0.7];
+   创建一个内容可拉伸，而边角不拉伸的图片，需要两个参数，第一个是左边不拉伸区域的宽度，第二个参数是上面不拉伸的高度。那么接下来的一个像素会被拉伸。例如，leftCapHeight为6，topCapHeight为8。那么，图片左边的6个像素，上边的8个像素。不会被拉伸，而左边的第7个像素，上边的第9个像素这一块区域将会被拉伸。剩余的部分也不会被拉伸。
 
 

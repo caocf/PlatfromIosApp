@@ -58,3 +58,18 @@ printResult({
     }, 1, 2)
 
 //: Playground - noun: a place where people can pla
+
+
+struct Think {
+    var name : String ,var age :Int
+    
+    
+}
+
+Think(name: "nihao" , age: 12))
+
+
+func getComar<T:C>(name: T ) -> T{
+    
+}
+
